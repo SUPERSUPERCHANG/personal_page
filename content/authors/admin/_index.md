@@ -1,172 +1,146 @@
 ---
 # Display name
-title: Alex Johnson
-
-# Name pronunciation (optional)
-name_pronunciation: ''
+title: Chang Chang
 
 # Full name (for SEO)
-first_name: Alex
-last_name: Johnson
+first_name: Chang
+last_name: Chang
 
 # Pronouns (optional)
-pronouns: he/him
-
-# Status emoji
-status:
-  icon: 🚀
+pronouns: he/him/his
 
 # Is this the primary user of the site?
 superuser: true
-
-# Highlight the author in author lists? (true/false)
 highlight_name: true
 
 # Role/position/tagline
-role: Senior AI Research Scientist
+role: M.S.E. Student in Mechanical Engineering
 
-# Organizations/Affiliations to display in Biography blox
+# Organizations/Affiliations
 organizations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: Johns Hopkins University
+    url: https://www.jhu.edu/
 
-# Social network links
-# Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
+# Contact & profiles
 profiles:
   - icon: at-symbol
-    url: 'mailto:alex.johnson@meta.com'
-    label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/AlexAIResearch
+    url: "mailto:changchang1119@outlook.com"
+    label: Email
   - icon: brands/github
-    url: https://github.com/alexjohnsonai
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/alexjohnsonai/
+    url: https://github.com/SUPERSUPERCHANG
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=alexjohnson
+    url: https://scholar.google.com/citations?user=XXXX   # ← 换成你的ID
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/changchang/
+  - icon: brands/x
+    url: https://twitter.com/
   - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://orcid.org/
 
+# Research interests
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Medical Robotics
+  - Image-Guided Intervention
+  - Robot Kinematics and Control
+  - ROS2 & Embedded Systems
+  - Mechanical and Electrical Design
 
+# Education
 education:
-  - area: PhD Computer Science (AI Focus)
-    institution: Stanford University
-    icon: ""
-    date_start: 2015-09-01
-    date_end: 2019-06-30
+  - area: M.S.E. in Mechanical Engineering
+    institution: Johns Hopkins University
+    date_start: 2023-09-01
+    date_end: 2025-05-31
     summary: |
-      Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com/thesis.pdf'
-  - area: MS Computer Science
-    institution: Carnegie Mellon University
-    icon: ""
-    date_start: 2013-09-01
-    date_end: 2015-05-31
+      GPA: 3.83/4.0  
+      Coursework: Robot Motion Planning, Control Systems, Computer Vision, Machine Learning.
+  - area: B.Eng. in Mechanical Design, Manufacturing & Automation
+    institution: Huazhong University of Science and Technology
+    date_start: 2019-09-01
+    date_end: 2023-06-30
     summary: |
-      GPA: 4.0/4.0
+      GPA: 3.79/4.0  
+      President, RoboMaster Control Team; minor in Mathematics.
 
-      Specialized in machine learning and robotics.
-  - area: BS Computer Science
-    institution: MIT
-    icon: ""
-    date_start: 2009-09-01
-    date_end: 2013-05-31
-    summary: |
-      GPA: 3.9/4.0
-
-      Minored in Mathematics. President of AI Club.
-
+# Experience
 work:
-  - position: Senior AI Research Scientist
-    company_name: Meta AI
-    company_url: 'https://ai.meta.com/'
-    icon: ''
-    date_start: 2020-01-01
-    date_end: ''
-    summary: |2-
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models. 50+ citations in 3 years.
-  - position: AI Research Intern
-    company_name: OpenAI
-    company_url: 'https://openai.com/'
-    icon: ''
-    date_start: 2019-06-01
-    date_end: 2019-12-31
+  - position: Research Assistant
+    company_name: Johns Hopkins University
+    company_url: https://www.lcsr.jhu.edu/
+    date_start: 2024-03-01
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      Developing **Flexible Needle Manipulation and Obstacle Avoidance System for Image-Guided Spinal Interventions** under Dr. Iulian Iordachita.  
+      • Designed and simulated FEM-based cross-entropy trajectory generator.  
+      • Built 2-DOF high-precision needle driver integrated with Micromate robot.  
+      • Designed ROS2-based control architecture with MATLAB visualization.  
+      • Conducted CT-EM registration and phantom validation experiments.
+  - position: Research Assistant
+    company_name: Huazhong University of Science and Technology
+    date_start: 2022-03-01
+    date_end: 2023-06-30
+    summary: |
+      Led design of **Rapid Temperature Control System and PCR Device**.  
+      • Built convective heat-transfer model in COMSOL.  
+      • Designed cascade-PID control on STM32 achieving ±0.1 °C accuracy.  
+      • Co-authored *Micromachines* 2024 paper and 3 Chinese patents.
+  - position: Control Team Leader
+    company_name: RoboMaster Robotics Competition
+    date_start: 2019-09-01
+    date_end: 2021-12-31
+    summary: |
+      • Developed control algorithms for Hero robot, optimized gimbal-chassis coordination.  
+      • Integrated vision feedback in Gazebo simulation.  
+      • Won **1st place provincial** and **2nd place national** in RMUL 2021.
+
+# Publications
+publications:
+  - "Chang C., Mei J., Wang Y., Al-Zogbi L., Leonard S., Iordachita I. *Flexible Needle Manipulation and Obstacle Avoidance System for Image-Guided Spinal Interventions*, ISMR 2025."
+  - "Wang Y., Chang C., Mei J., Leonard S., Taylor R., Iordachita I. *High-Precision Autonomous Control of Flexible Needles via Real-Time FEM Simulation and Cross-Entropy Optimization*, IEEE RA-L 2025 (Accepted)."
+  - "Mei J., Chang C., Wang Y., Al-Zogbi L., Leonard S., Iordachita I. *Flexible Needle Manipulation with Realtime Electromagnetic Feedback: Simulation Studies*, ISMR 2025."
+  - "Xie Y., Jiang Q., Chang C., Zhao X., Yong H., Ke X., Wu Z. *A Thermal Cycler Based on Magnetic Induction Heating and Anti-Freezing Water Cooling for Rapid PCR*, *Micromachines*, 2024, 15(12): 1462."
+
+# Awards
+awards:
+  - title: Silver Medal
+    awarder: 49th International Exhibition of Inventions Geneva
+    date: 2024-04-01
+  - title: Bronze Medal
+    awarder: "Internet+ Innovation and Entrepreneurship Competition, Hubei Province"
+    date: 2022-07-01
+  - title: Outstanding Student Leader
+    awarder: Huazhong University of Science and Technology
+    date: 2021-06-01
+  - title: RoboMaster University League
+    awarder: DJI RoboMaster
+    date: 2021-06-01
+    summary: "1st place provincial, 2nd place national."
 
 # Skills
-# Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: Robotics & Control
     items:
-      - name: Python & PyTorch
-        description: ''
+      - name: ROS2 / Gazebo / MATLAB / Simulink
         percent: 95
-        icon: code-bracket
-      - name: Machine Learning
-        description: ''
-        percent: 100
-        icon: chart-bar
-      - name: Cloud Computing (AWS/GCP)
-        description: ''
-        percent: 85
-        icon: cloud
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking in the Rockies
-        description: ''
-        percent: 80
-        icon: person-simple-walk
-      - name: Building Custom PCs
-        description: ''
+      - name: Embedded Systems (STM32, FreeRTOS)
         percent: 90
-        icon: cpu-chip
-      - name: Sci-Fi Reading
-        description: ''
-        percent: 70
-        icon: book-open
+      - name: C++, Python
+        percent: 85
+  - name: Mechanical & Electrical Design
+    items:
+      - name: SolidWorks / ANSYS / Altium Designer
+        percent: 90
+      - name: 3D Printing / PCB Fabrication / Soldering
+        percent: 95
+  - name: Visualization & Tools
+    items:
+      - name: LaTeX / Origin / Photoshop / Premiere
+        percent: 80
 
 languages:
   - name: English
     percent: 100
-  - name: Spanish
-    percent: 50
-
-# Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
-awards:
-  - title: Best Paper Award
-    url: https://neurips.cc/
-    date: '2022-12-01'
-    awarder: NeurIPS
-    icon: hero/trophy
-    summary: |
-      Awarded for groundbreaking work on efficient training of large models.
-  - title: AI Innovation Grant
-    url: https://www.nsf.gov/
-    date: '2021-06-15'
-    awarder: National Science Foundation
-    icon: hero/currency-dollar
-    summary: |
-      $500,000 grant for research in ethical AI development.
-  - title: Outstanding PhD Thesis
-    url: https://www.stanford.edu/
-    date: '2019-06-30'
-    awarder: Stanford University
-    icon: hero/academic-cap
-    summary: |
-      Recognized for contributions to scaling laws in deep learning.
+  - name: Chinese (Mandarin)
+    percent: 100
 ---
 
-Alex Johnson is a Senior AI Research Scientist at Meta AI, where he leads groundbreaking work on large language models and multimodal systems. His research has been published in top conferences like NeurIPS and ICML, with over 10,000 citations. Alex is passionate about pushing the boundaries of AI while ensuring ethical development. Outside of work, he enjoys hiking in the Rockies, building custom PCs, and mentoring the next generation of AI talent.
+Chang Chang is a robotics researcher passionate about mechanical design, control systems, and medical applications. His recent work focuses on image-guided flexible needle manipulation and FEM-based motion planning in ROS2 environments. He has published in *IEEE RA-L*, *ISMR*, and *Micromachines*, and led award-winning RoboMaster teams bridging mechanics and AI-based perception.

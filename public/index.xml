@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo Academic CV Theme</title><link>https://c-chang.com/</link><atom:link href="https://c-chang.com/index.xml" rel="self" type="application/rss+xml"/><description>Hugo Academic CV Theme</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate><image><url>https://c-chang.com/media/icon_hu_982c5d63a71b2961.png</url><title>Hugo Academic CV Theme</title><link>https://c-chang.com/</link></image><item><title>Getting Started</title><link>https://c-chang.com/courses/hugo-blox/getting-started/</link><pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate><guid>https://c-chang.com/courses/hugo-blox/getting-started/</guid><description>&lt;h2 id="quick-start-from-template"&gt;Quick Start from Template&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Chang Chang's personal page</title><link>https://c-chang.com/</link><atom:link href="https://c-chang.com/index.xml" rel="self" type="application/rss+xml"/><description>Chang Chang's personal page</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate><image><url>https://c-chang.com/media/icon_hu_982c5d63a71b2961.png</url><title>Chang Chang's personal page</title><link>https://c-chang.com/</link></image><item><title>Getting Started</title><link>https://c-chang.com/courses/hugo-blox/getting-started/</link><pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate><guid>https://c-chang.com/courses/hugo-blox/getting-started/</guid><description>&lt;h2 id="quick-start-from-template"&gt;Quick Start from Template&lt;/h2&gt;
 &lt;div class="hb-steps"&gt;
 &lt;h3 id="create-a-site"&gt;Create a site&lt;/h3&gt;
 &lt;p&gt;
@@ -624,7 +624,7 @@ Powered by Hugo Blox Builder - https://github.com/HugoBlox/hugo-blox-builder
 format for interactive data visualizations. With Plotly, you can design almost any kind of visualization you can imagine!&lt;/p&gt;
 &lt;p&gt;Save your Plotly JSON in your page folder, for example &lt;code&gt;line-chart.json&lt;/code&gt;, and then add the &lt;code&gt;{{&amp;lt; chart data=&amp;quot;line-chart&amp;quot; &amp;gt;}}&lt;/code&gt; shortcode where you would like the chart to appear.&lt;/p&gt;
 &lt;p&gt;Demo:&lt;/p&gt;
-&lt;div id="chart-523469871" class="chart"&gt;&lt;/div&gt;
+&lt;div id="chart-789251436" class="chart"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 async function fetchChartJSON() {
@@ -640,7 +640,7 @@ return;
 clearInterval( a );
 fetchChartJSON().then(chart =&gt; {
 console.debug('Plotting chart...')
-window.Plotly.newPlot('chart-523469871', chart.data, chart.layout, {responsive: true});
+window.Plotly.newPlot('chart-789251436', chart.data, chart.layout, {responsive: true});
 });
 }, 500 );
 })();
@@ -894,7 +894,7 @@ is designed to give technical content creators a seamless experience. You can fo
 &lt;i class="far fa-file-alt pub-icon" aria-hidden="true"&gt;&lt;/i&gt;
 &lt;span class="article-metadata li-cite-author"&gt;
 &lt;span class="font-bold"&gt;
-Alex Johnson&lt;/span&gt;
+Chang Chang&lt;/span&gt;
 &lt;/span&gt;
 (2019).
 &lt;a href="https://c-chang.com/publications/preprint/" class="underline"&gt;An example preprint / working paper&lt;/a&gt;.
@@ -942,7 +942,7 @@ Preprint
 &lt;i class="far fa-file-alt pub-icon" aria-hidden="true"&gt;&lt;/i&gt;
 &lt;span class="article-metadata li-cite-author"&gt;
 &lt;span class="font-bold"&gt;
-Alex Johnson&lt;/span&gt;&lt;span class="relative inline-block ml-1" x-data="{ tooltip: false }"&gt;
+Chang Chang&lt;/span&gt;&lt;span class="relative inline-block ml-1" x-data="{ tooltip: false }"&gt;
 &lt;button
 @mouseenter="tooltip = true"
 @mouseleave="tooltip = false"
