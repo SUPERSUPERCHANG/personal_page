@@ -1256,6 +1256,9 @@
   .mt-16 {
     margin-top: calc(var(--spacing) * 16);
   }
+  .mt-24 {
+    margin-top: calc(var(--spacing) * 24);
+  }
   .mt-\[-0\.3rem\] {
     margin-top: -0.3rem;
   }
@@ -1279,9 +1282,6 @@
   }
   .\!mb-4 {
     margin-bottom: calc(var(--spacing) * 4) !important;
-  }
-  .mb-0 {
-    margin-bottom: calc(var(--spacing) * 0);
   }
   .mb-1 {
     margin-bottom: calc(var(--spacing) * 1);
@@ -1639,6 +1639,9 @@
   }
   .justify-start {
     justify-content: flex-start;
+  }
+  .justify-items-center {
+    justify-items: center;
   }
   .gap-1 {
     gap: calc(var(--spacing) * 1);
@@ -2394,6 +2397,9 @@
   .text-slate-500 {
     color: var(--color-slate-500);
   }
+  .text-slate-700 {
+    color: var(--color-slate-700);
+  }
   .text-slate-900 {
     color: var(--color-slate-900);
   }
@@ -2887,6 +2893,11 @@
   .hover\:underline {
     &:hover {
       text-decoration-line: underline;
+    }
+  }
+  .hover\:opacity-100 {
+    &:hover {
+      opacity: 100%;
     }
   }
   .hover\:shadow-lg {

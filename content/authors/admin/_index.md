@@ -14,7 +14,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: M.S.E. Student in Mechanical Engineering
+role: Research Assistant in Johns Hopkins University
 
 # Organizations/Affiliations
 organizations:
@@ -31,15 +31,17 @@ profiles:
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=XXXX   # ← 换成你的ID
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/changchang/
-  - icon: brands/x
-    url: https://twitter.com/
+    url: www.linkedin.com/in/chang-chang-09791b2b6
+#  - icon: brands/x
+#    url: https://twitter.com/
   - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://orcid.org/0009-0001-4776-8303
 
 # Research interests
 interests:
-  - Medical Robotics
+  - Robotics
+  - Medical Robot
+  - Legged Robot locomotion and manipulation
   - Image-Guided Intervention
   - Robot Kinematics and Control
   - ROS2 & Embedded Systems
@@ -60,7 +62,6 @@ education:
     date_end: 2023-06-30
     summary: |
       GPA: 3.79/4.0  
-      President, RoboMaster Control Team; minor in Mathematics.
 
 # Experience
 work:
