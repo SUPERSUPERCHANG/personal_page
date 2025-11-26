@@ -31,7 +31,7 @@ profiles:
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=XXXX   # ← 换成你的ID
   - icon: brands/linkedin
-    url: www.linkedin.com/in/chang-chang-09791b2b6
+    url: https://www.linkedin.com/in/chang-chang-09791b2b6
 #  - icon: brands/x
 #    url: https://twitter.com/
   - icon: academicons/orcid

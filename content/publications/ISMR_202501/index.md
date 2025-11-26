@@ -1,22 +1,25 @@
 ---
-title: 'An example conference paper'
+title: 'Design and Evaluation of a Needle Manipulation System with EM Tracking for CT-Guided Spinal Injections'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - admin
-  - Robert Ford
-
+  - Junling Mei
+  - Yanzhou Wang
+  - Lidia Al-Zogbi
+  - Simon Leonard
+  - Amit Jain
+  - Iulian Iordachita
 # Author notes (optional)
 author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
 
-date: '2013-07-01T00:00:00Z'
+date: '2025-05-04T00:00:00Z'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2017-01-01T00:00:00Z'
+
+publishDate: '2025-05-04T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -24,37 +27,33 @@ publishDate: '2017-01-01T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *Hugo Blox Builder Conference*
-publication_short: In *ICW*
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+publication: In *IEEE International Symposium on Medical Robotics (ISMR 2025)*
+publication_short: In *ISMR 2025*
+
+abstract: This paper presents a flexible needle guidance system and its workflow that enables registration of computed tomography (CT) and electromagnetic (EM) tracking systems with a finite element (FE) simulator for needle-based percutaneous spinal injections. CT is used only pre- and postoperatively for surgical planning and confirmation, while EM tracking is combined intraoperatively with an FE-based needle controller to track the planned needle trajectory and avoid obstacles. Evaluation of the proposed system using a multi-layer soft tissue phantom shows an average targeting accuracy of 0.4 mm.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: We propose a CT-registered, EM-tracked, FE-based flexible needle manipulation system achieving 0.4 mm targeting accuracy for spinal injections.
 
 tags:
-  - Large Language Models
-
+  - Needle Steering
+  - Medical Robotics
+  - Finite Element Simulation
+  - EM Tracking
+  - CT-Guided Intervention
 # Display this page in the Featured widget?
 featured: true
 
 # Standard identifiers for auto-linking
 hugoblox:
   ids:
-    doi: 10.5555/123456
+    doi: "10.1109/ISMR67322.2025.11025983"
 
 # Custom links
 links:
   - type: pdf
-    url: ""
-  - type: code
-    url: https://github.com/HugoBlox/hugo-blox-builder
-  - type: dataset
-    url: https://github.com/HugoBlox/hugo-blox-builder
-  - type: slides
-    url: https://www.slideshare.net/
-  - type: source
-    url: https://github.com/HugoBlox/hugo-blox-builder
+    url: ISMR2025_1.pdf
   - type: video
     url: https://youtube.com
 
@@ -84,7 +83,3 @@ slides: ""
 > [!NOTE]
 > Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 
-> [!NOTE]
-> Create your slides in Markdown - click the _Slides_ button to check out the example.
-
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
