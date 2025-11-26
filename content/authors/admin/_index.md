@@ -29,9 +29,9 @@ profiles:
   - icon: brands/github
     url: https://github.com/SUPERSUPERCHANG
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=ms7stpEAAAAJ&hl=en   # ← 换成你的ID
+    url: https://scholar.google.com/citations?user=XXXX   # ← 换成你的ID
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/chang-chang-09791b2b6
+    url: www.linkedin.com/in/chang-chang-09791b2b6
 #  - icon: brands/x
 #    url: https://twitter.com/
   - icon: academicons/orcid
@@ -39,12 +39,10 @@ profiles:
 
 # Research interests
 interests:
-  - Robotics
-  - Medical Robot
-  - Legged Robot locomotion and manipulation
+  - General Robotics
+  - Medicals
+  - Quadruped Robots Locomotion and Legged Loco-manipulation
   - Image-Guided Intervention
-  - Robot Kinematics and Control
-  - ROS2 & Embedded Systems
   - Mechanical and Electrical Design
 
 # Education
@@ -62,13 +60,14 @@ education:
     date_end: 2023-06-30
     summary: |
       GPA: 3.79/4.0  
+      President, RoboMaster Control Team; minor in Mathematics.
 
 # Experience
 work:
   - position: Research Assistant
     company_name: Johns Hopkins University
     company_url: https://www.lcsr.jhu.edu/
-    date_start: 2024-03-01
+    date_start: 2025-08-01
     summary: |
       Developing **Flexible Needle Manipulation and Obstacle Avoidance System for Image-Guided Spinal Interventions** under Dr. Iulian Iordachita.  
       • Designed and simulated FEM-based cross-entropy trajectory generator.  
@@ -92,13 +91,17 @@ work:
       • Developed control algorithms for Hero robot, optimized gimbal-chassis coordination.  
       • Integrated vision feedback in Gazebo simulation.  
       • Won **1st place provincial** and **2nd place national** in RMUL 2021.
-
 # Publications
 publications:
-  - "Chang C., Mei J., Wang Y., Al-Zogbi L., Leonard S., Iordachita I. *Flexible Needle Manipulation and Obstacle Avoidance System for Image-Guided Spinal Interventions*, ISMR 2025."
-  - "Wang Y., Chang C., Mei J., Leonard S., Taylor R., Iordachita I. *High-Precision Autonomous Control of Flexible Needles via Real-Time FEM Simulation and Cross-Entropy Optimization*, IEEE RA-L 2025 (Accepted)."
-  - "Mei J., Chang C., Wang Y., Al-Zogbi L., Leonard S., Iordachita I. *Flexible Needle Manipulation with Realtime Electromagnetic Feedback: Simulation Studies*, ISMR 2025."
-  - "Xie Y., Jiang Q., Chang C., Zhao X., Yong H., Ke X., Wu Z. *A Thermal Cycler Based on Magnetic Induction Heating and Anti-Freezing Water Cooling for Rapid PCR*, *Micromachines*, 2024, 15(12): 1462."
+    - "Chang C., Mei J., Wang Y., Al-Zogbi L., Leonard S., Iordachita I. *Flexible Needle Manipulation and Obstacle Avoidance System for Image-Guided Spinal Interventions*, ISMR 2025."
+    - "Wang Y., Chang C., Mei J., Leonard S., Taylor R., Iordachita I. *High-Precision Autonomous Control of Flexible Needles via Real-Time Finite Element Simulation and Cross-Entropy Optimization*, IEEE Robotics and Automation Letters, 2025."
+    - "Hu B., Ge J., Chang C., Lin X., Krieger A., Mohsenin T. *ASVO: Autonomous Sensor View Optimization for Robotic Casualty Assessment*, ISMR 2026 (Under review)."
+    - "Mei J., Chang C., Wang Y., Al-Zogbi L., Leonard S., Iordachita I. *Flexible Needle Manipulation with Realtime Electromagnetic Feedback: Simulation Studies*, ISMR 2025."
+    - "Wang Y., Chang C., Mei J., Leonard S., Iordachita I. *Minimally Invasive Flexible Needle Manipulation Based on Finite Element Simulation and Cross Entropy Method*, arXiv:2411.07890."
+    - "Xie Y., Jiang Q., Chang C., Zhao X., Yong H., Ke X., Wu Z. *A Thermal Cycler Based on Magnetic Induction Heating and Anti-Freezing Water Cooling for Rapid PCR*, *Micromachines*, 2024, 15(12): 1462."
+    - "Chang C., Xie Y., Jiang Q., Zhao X., Yong H., Ke X., Wu Z. *A PCR Temperature Control System and PCR Device*, China Patent, CN 118389270 A, 2024.07."
+    - "Chang C., Xie Y., Jiang Q., Zhao X., Yong H., Ke X., Wu Z. *A Rapid Temperature Control Method and System*, China Patent, CN 118170188 A, 2024.06."
+    - "Chang C., Xie Y., Jiang Q., Zhao X., Yong H., Ke X., Wu Z. *A Rapid Temperature Control Method and System*, China Patent, CN 117234261 A, 2023.12."
 
 # Awards
 awards:
